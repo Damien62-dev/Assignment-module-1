@@ -27,6 +27,8 @@ body {
     max-width: 80%;           /* Max width is 80% of viewport */
     margin: 40px auto;        /* 40px top/bottom, auto centers horizontally */
     padding: 0 20px;          /* Padding of 20px left and right */
+    text-align: justify; /* Justify text for better readability */
+
 }
 
 /* Headings color */
@@ -65,6 +67,7 @@ p {
   font-size: 1.3rem;          /* Slightly larger font */
   font-weight: 400;           /* Normal font weight */
 }
+
 
 /* Remove default list styling from navigation links */
 ul {

@@ -8,6 +8,16 @@
 body {
     background-color: #fffffe; /* Set a very light background color */
     color: #222;               /* Set main text color */
+     height: 100%;          /* Full height for body */
+    margin: 0;          /* Remove default margin */
+    padding: 0;        /* Remove default padding */
+     min-height: 100vh;   /* Ensure body takes full viewport height */   
+    display: flex;  /* Use flexbox for layout */
+    flex-direction: column;   /* Stack children vertically */       
+}
+
+main {
+    flex: 1;                  /* Allow main to grow and fill available space */
 }
 
 /* Logo image settings */
@@ -25,7 +35,7 @@ body {
 /* Central content wrapper */
 .container {
     max-width: 80%;           /* Max width is 80% of viewport */
-    margin: 40px auto;        /* 40px top/bottom, auto centers horizontally */
+    margin: 40px auto 0 auto; /* Center container with auto margins */
     padding: 0 20px;          /* Padding of 20px left and right */
     text-align: justify; /* Justify text for better readability */
 
@@ -222,7 +232,7 @@ form input[type="submit"]:hover {
 
 @media (max-width: 700px) {
   .hero-image {
-    width: 100%;
+    width: 100%;      /* Full width on mobile */
     height: auto;        /* Plus de hauteur fixe : l’image garde les proportions */
     max-height: 300px;   /* Optionnel, pour ne pas dépasser sur mobile */
   }
@@ -232,11 +242,11 @@ form input[type="submit"]:hover {
     padding: 0 8px;
   }
   .features {
-    flex-direction: column;
+    flex-direction: column;  /* Stack features vertically on small screens */
   }
   .feature {
-    width: 100%;
-    margin-bottom: 1.5rem;
+    width: 100%;  /* Full width for feature boxes */ 
+    margin-bottom: 1.5rem;  /* Space between feature boxes */
   }
 
   .video iframe  {

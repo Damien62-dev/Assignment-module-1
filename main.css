@@ -8,12 +8,12 @@
 body {
     background-color: #fffffe; /* Set a very light background color */
     color: #222;               /* Set main text color */
-     height: 100%;          /* Full height for body */
-    margin: 0;          /* Remove default margin */
-    padding: 0;        /* Remove default padding */
-     min-height: 100vh;   /* Ensure body takes full viewport height */   
-    display: flex;  /* Use flexbox for layout */
-    flex-direction: column;   /* Stack children vertically */       
+    height: 100%;              /* Full height for body */
+    margin: 0;                 /* Remove default margin */
+    padding: 0;                /* Remove default padding */
+    min-height: 100vh;         /* Ensure body takes full viewport height */   
+    display: flex;             /* Use flexbox for layout */
+    flex-direction: column;    /* Stack children vertically */       
 }
 
 main {
@@ -85,7 +85,7 @@ ul {
   margin: 0;                 /* No margin */
   padding: 0;                /* No padding */
   overflow: hidden;          /* Contain floats */
-  background-color: none;    /* No background color */
+  /* background-color: none;  No background color */
 }
 
 /* Float nav items to the left for horizontal menu */
@@ -154,14 +154,14 @@ table {
   font-size: 1rem;             /* Normal font size */
   box-shadow: 0 2px 8px rgba(9,64,103,0.06); /* Soft shadow */
   border-radius: 12px;         /* Rounded corners */
+  margin-bottom: 32px; /* Space below table */
 }
 
 /* Table cell styles */
 th, td {
   padding: 12px 16px;          /* Inner padding */
   text-align: left;            /* Left align text */
-  border: 1px solid black;     /* Thin border */
-  border-color: #d8eefe;       /* Light blue border color */
+  border: 1px solid #d8eefe;   /* Light blue border color */
 }
 
 /* Table header style */

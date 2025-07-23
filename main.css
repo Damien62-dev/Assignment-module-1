@@ -151,7 +151,6 @@ table {
   width: 100%;                 /* Full width */
   max-width: 500px;            /* But max 500px */
   border-collapse: collapse;   /* Remove gaps between borders */
-  background: f5f7fa;          /* Light background (you miss a #) */
   font-size: 1rem;             /* Normal font size */
   box-shadow: 0 2px 8px rgba(9,64,103,0.06); /* Soft shadow */
   border-radius: 12px;         /* Rounded corners */
@@ -239,7 +238,7 @@ form input[type="submit"]:hover {
   
   .container {
     max-width: 100%;     /* Toute la largeur sur mobile */
-    padding: 0 8px;
+    padding: 0 8px;   /* Moins de padding sur mobile */
   }
   .features {
     flex-direction: column;  /* Stack features vertically on small screens */
